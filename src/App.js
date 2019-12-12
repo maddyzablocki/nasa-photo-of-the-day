@@ -1,15 +1,15 @@
 import React from "react";
 import "./App.css";
+import PictureList from "./components/pictureList";
 
 function App() {
   return (
     <div className="App">
-      <p>
-        Read through the instructions in the README.md file to build your NASA
-        app! Have fun 🚀!
-      </p>
+      <h1>Astronomy Of The Day!</h1>
+      <PictureList />
     </div>
   );
 }
 
 export default App;
+
